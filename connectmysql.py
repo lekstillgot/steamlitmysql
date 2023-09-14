@@ -5,10 +5,10 @@ import pymysql
 
 def connectdb():
     connection = pymysql.connect(
-        host='localhost',
-        user='root',
-        password='',
-        db='testpython',
+        host='bhf1chtp9awshsyetbec-mysql.services.clever-cloud.com',
+        user='uu7fbjp9eelrhbpu',
+        password='Z7MWbtqCaI6GtdNWl2lp',
+        db='bhf1chtp9awshsyetbec',
         port=3306,
         cursorclass=pymysql.cursors.DictCursor
 
